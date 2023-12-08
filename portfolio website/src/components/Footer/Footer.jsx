@@ -8,8 +8,8 @@ function Footer() {
   return (
     <>
       <div className='w-full bg-primary h-auto bottom-0 fixed'>
-        <div className='container w-9/12  mx-auto'>
-          <div className='grid  gap-0.5   place-items-center items-center align-middle mx-auto divide-y-1'>
+        <div className='w-9/12  mx-auto'>
+          <div className='grid  gap-0.5   place-items-center items-center align-middle mx-auto '>
                 <div className='font-Anton text-white p-2 m-auto text-2xl '> <Link to={'/'}>Sahil<em className='text-varRed text-5xl font-mono'>.</em></Link>
                 </div>
                 <h2 className='text-varYellow p-2 m-auto'>Follow me</h2>
