@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <>
-      <div className='w-full h-auto bg-primary z-10 shadow-white top-0'>
+      <div className='w-full h-auto bg-primary z-10 shadow-white top-0 sticky'>
 
           <div className='max-w-full flex flex-wrap justify-around'>
                 <h1 className='font-Anton text-white text-2xl lg:mb-3'> <Link to={'/'}>Sahil<em className='text-varRed text-5xl font-mono'>.</em></Link></h1>

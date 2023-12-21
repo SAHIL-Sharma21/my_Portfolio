@@ -7,8 +7,8 @@ const hoverClass = 'transition  hover:-translate-y-1 hover:scale-110 duration-30
 function Footer() {
   return (
     <>
-      <div className='w-full bg-primary h-auto bottom-0 fixed'>
-        <div className='w-9/12  mx-auto'>
+      <div className='w-full bg-primary bottom-0 sticky'>
+        <div className='w-9/12  mx-auto '>
           <div className='grid  gap-0.5   place-items-center items-center align-middle mx-auto '>
                 <div className='font-Anton text-white p-2 m-auto text-2xl '> <Link to={'/'}>Sahil<em className='text-varRed text-5xl font-mono'>.</em></Link>
                 </div>
@@ -21,7 +21,7 @@ function Footer() {
                 </div>
           </div>
           <hr className='mt-3 text-white'/>
-          <div className='flex justify-between my-3'>
+          <div className='flex justify-between gap-y-4 p-1.5'>
             <div className='flex gap-1'> <Copyright color='white'/> <p className='text-white'>2024 | All rights reserved.</p> </div>
             <div className='flex gap-2 text-white'>made with <Heart color='#F73E2F' size={18} className='items-center mt-1' /> by <span className='text-varYellow font-bold'>Sahil Sharma</span></div> 
           </div>
