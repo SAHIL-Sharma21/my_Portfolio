@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 function Home() {
   return (
     <>
-      <div className='w-full bg-background flex justify-center mb-5 '>
+      <div className='w-full bg-background flex justify-center pb-5 '>
         <div className='w-9/12 flex justify-around  rounded-lg mt-6 h-max shadow-lg shadow-primary mb-6'>
              <div className='bg-primary text-white rounded-tl-lg rounded-bl-lg w-3/4'>
                 <div className='p-4 flex flex-col justify-around  align-middle gap-5 mt-5'>
