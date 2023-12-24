@@ -7,10 +7,10 @@ const hoverClass = 'transition  hover:-translate-y-1 hover:scale-110 duration-30
 function Footer() {
   return (
     <>
-      <div className='w-full bg-primary bottom-0 sticky'>
+      <div className='w-full bg-primary bottom-0 '>
         <div className='w-9/12  mx-auto '>
           <div className='grid  gap-0.5   place-items-center items-center align-middle mx-auto '>
-                <div className='font-Anton text-white p-2 m-auto text-2xl '> <Link to={'/'}>Sahil<em className='text-varRed text-5xl font-mono'>.</em></Link>
+                <div className='font-Anton text-white p-2 m-auto text-2xl '> <Link to={'/'}>Sahil<span className='text-varRed text-5xl font-mono'>.</span></Link>
                 </div>
                 <h2 className='text-varYellow p-2 m-auto'>Follow me</h2>
                 <div className='mt-1 flex justify-between gap-x-3 my-2'>
